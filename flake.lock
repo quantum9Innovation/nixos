@@ -42,11 +42,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1723173235,
-        "narHash": "sha256-3kuogcKtQB6uwOvNJUdCibZVxYFakL45VH8JJccqSnw=",
+        "lastModified": 1723175551,
+        "narHash": "sha256-BsmuF4Kb6XMUj2CHHfcOq6ZRLpyJjG0ma0Yin7MoE1c=",
         "owner": "quantum9innovation",
         "repo": "netsanet",
-        "rev": "41862a096f25bb992802c852a4c22517edadec5b",
+        "rev": "03903be05698b2c0ecdfbc7914abdf58d5572319",
         "type": "github"
       },
       "original": {
@@ -497,11 +497,11 @@
         "nixpkgs": "nixpkgs_4"
       },
       "locked": {
-        "lastModified": 1723174621,
-        "narHash": "sha256-lTcry3SAn+Yb4bKUWZhZeZnkYomPGkvCcNioIH8yQKU=",
+        "lastModified": 1723175713,
+        "narHash": "sha256-4CjlVKj7jQi4HE7Sg/u5GmCbWpLw13Th0JeIJC2z7W0=",
         "owner": "quantum9innovation",
         "repo": "quasaros",
-        "rev": "b1290114040a3ed2b316998a5b82f33179647b35",
+        "rev": "a10f5987f35eb7f03afecca1201df1e5365eb5b9",
         "type": "github"
       },
       "original": {
