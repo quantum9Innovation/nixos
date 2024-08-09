@@ -497,11 +497,11 @@
         "nixpkgs": "nixpkgs_4"
       },
       "locked": {
-        "lastModified": 1723176597,
-        "narHash": "sha256-/eQIJGemU18DK/3oQEZxLWqyuOsb+mSI2IEDP9RlGog=",
+        "lastModified": 1723177159,
+        "narHash": "sha256-aqyCp2QzbULEsWW/nwg8wAZgomOYY3wctaNjgaE1NVU=",
         "owner": "quantum9innovation",
         "repo": "quasaros",
-        "rev": "119e57f8a8a38d07d65b2b8dccb182a095e4ad27",
+        "rev": "055af375020a2c5482eafb79a38cbc78904f72a2",
         "type": "github"
       },
       "original": {
