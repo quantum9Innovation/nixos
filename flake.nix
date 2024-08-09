@@ -40,7 +40,6 @@
   outputs = { self, nixpkgs, quasaros, config, ... }@inputs: {
     # Build the system
     nixosConfigurations.netsanet = (quasaros.make config).system;
-    nixpkgs.config.allowUnfree = true;
 
     formatter.x86_64-linux = nixpkgs.legacyPackages.x86_64-linux.nixfmt-classic;
   };
