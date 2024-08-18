@@ -31,10 +31,10 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
 
     # QuasarOS
-    quasaros.url = "github:quantum9innovation/quasaros/test2";
+    quasaros.url = "github:quantum9innovation/quasaros/main";
 
     # User configuration
-    config.url = "github:quantum9innovation/netsanet/test2";
+    config.url = "github:quantum9innovation/netsanet/main";
   };
 
   outputs = { self, nixpkgs, quasaros, config, ... }@inputs: {
