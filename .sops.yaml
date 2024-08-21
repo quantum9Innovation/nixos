@@ -1,9 +1,14 @@
 # This configuration uses YAML anchors which allows reuse of multiple keys 
 # without having to repeat yourself.
 keys:
+  - &server_netsanet age1csg4e43vt49n29dcqfp7q7lydnsvlz57sp7lnvn9azwqnjycuaqqcazquj
   - &github_nixos_token age1t5a8ze9g5y888hv37ul78v4dfy7dtads0zkjda6720lytw6y43cssu47n9
 creation_rules:
   - path_regex: secrets/[^/]+\.(yaml|json|env|ini)$
+    key_groups:
+    - age:
+      - *server_netsanet
+  - path_regex: secrets/nixos/github_nixos_token.yaml
     key_groups:
     - age:
       - *github_nixos_token
