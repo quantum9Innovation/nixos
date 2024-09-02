@@ -412,6 +412,22 @@
         "type": "github"
       }
     },
+    "nixpkgs-upstream": {
+      "locked": {
+        "lastModified": 1725274606,
+        "narHash": "sha256-xXINAjCR8eTmp3AxZTk/PIH9nNoFNN0OM7MUw6eB7oQ=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "66a352a3f27a2eb2f27e42a13c6fe245d3be2b98",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable-small",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
     "nixpkgs_2": {
       "locked": {
         "lastModified": 1725103162,
@@ -446,11 +462,11 @@
     },
     "nixpkgs_4": {
       "locked": {
-        "lastModified": 1724819573,
-        "narHash": "sha256-GnR7/ibgIH1vhoy8cYdmXE6iyZqKqFxQSVkFgosBh6w=",
+        "lastModified": 1725103162,
+        "narHash": "sha256-Ym04C5+qovuQDYL/rKWSR+WESseQBbNAe5DsXNx5trY=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "71e91c409d1e654808b2621f28a327acfdad8dc2",
+        "rev": "12228ff1752d7b7624a54e9c1af4b222b3c1073b",
         "type": "github"
       },
       "original": {
@@ -494,14 +510,15 @@
         "home-manager": "home-manager",
         "hyprland": "hyprland",
         "lanzaboote": "lanzaboote",
-        "nixpkgs": "nixpkgs_4"
+        "nixpkgs": "nixpkgs_4",
+        "nixpkgs-upstream": "nixpkgs-upstream"
       },
       "locked": {
-        "lastModified": 1725133770,
-        "narHash": "sha256-3Bew60a7nV4g4KnHxbBMIZCSf6HCuuV1deSk3cJviX8=",
+        "lastModified": 1725294230,
+        "narHash": "sha256-kgi3jl1Zg/pbpr20CRmqg26DF8MkMOmgvYx+G2wt4ys=",
         "owner": "quantum9innovation",
         "repo": "quasaros",
-        "rev": "6deeaedffbdf197e6bf50924dfc9e18fe5f8722c",
+        "rev": "b37dd5386530eaf6bd0632f55348dc502ec129f7",
         "type": "github"
       },
       "original": {
