@@ -31,7 +31,7 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
 
     # QuasarOS
-    quasaros.url = "github:quantum9innovation/quasaros/hyprpm";
+    quasaros.url = "github:quantum9innovation/quasaros/main";
 
     # User configuration
     config.url = "github:quantum9innovation/netsanet/main";
