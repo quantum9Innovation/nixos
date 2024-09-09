@@ -37,10 +37,18 @@
     config.url = "github:quantum9innovation/netsanet/main";
   };
 
-  outputs = { self, nixpkgs, quasaros, config, ... }@inputs: {
-    # Build the system
-    nixosConfigurations.netsanet = (quasaros.make config).system;
+  outputs =
+    {
+      self,
+      nixpkgs,
+      quasaros,
+      config,
+      ...
+    }@inputs:
+    {
+      # Build the system
+      nixosConfigurations.netsanet = (quasaros.make config).system;
 
-    formatter.x86_64-linux = nixpkgs.legacyPackages.x86_64-linux.nixfmt-rfc-style;
-  };
+      formatter.x86_64-linux = nixpkgs.legacyPackages.x86_64-linux.nixfmt-rfc-style;
+    };
 }
