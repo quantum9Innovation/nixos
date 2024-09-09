@@ -41,6 +41,6 @@
     # Build the system
     nixosConfigurations.netsanet = (quasaros.make config).system;
 
-    formatter.x86_64-linux = nixpkgs.legacyPackages.x86_64-linux.nixfmt-classic;
+    formatter.x86_64-linux = nixpkgs.legacyPackages.x86_64-linux.nixfmt-rfc-style;
   };
 }
