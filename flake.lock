@@ -286,11 +286,11 @@
         "nixpkgs-upstream": "nixpkgs-upstream"
       },
       "locked": {
-        "lastModified": 1727489192,
-        "narHash": "sha256-mm5j1CsH1858d194OqnLIUdQGiqH3tK4QUDiggfFkXc=",
+        "lastModified": 1727489524,
+        "narHash": "sha256-DvoCuYySaMyS7sPHqsSdnP5dNwaZFndsURK+CTHwG/w=",
         "owner": "quantum9innovation",
         "repo": "quasaros",
-        "rev": "8323031b8d23ba14568d2db9c9c4da5b3146e373",
+        "rev": "c572d5278d9b6b855f8ec7b8ff229bb45717b160",
         "type": "github"
       },
       "original": {
