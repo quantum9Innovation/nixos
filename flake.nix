@@ -1,14 +1,14 @@
 {
 
-  #  /*****                                                 /******   /****  
-  #  |*    |  |*   |    **     ****     **    *****        |*    |  /*    * 
-  #  |*    |  |*   |   /* *   /*       /* *   |*   |      |*    |  |*       
-  #  |*    |  |*   |  /*   *   ****   /*   *  |*   /     |*    |   ****** 
-  #  |*  * |  |*   |  ******       |  ******  *****     |*    |         | 
-  #  |*   *   |*   |  |*   |   *   |  |*   |  |*  *    |*    |   *     | 
+  #  /*****                                                 /******   /****
+  #  |*    |  |*   |    **     ****     **    *****        |*    |  /*    *
+  #  |*    |  |*   |   /* *   /*       /* *   |*   |      |*    |  |*
+  #  |*    |  |*   |  /*   *   ****   /*   *  |*   /     |*    |   ******
+  #  |*  * |  |*   |  ******       |  ******  *****     |*    |         |
+  #  |*   *   |*   |  |*   |   *   |  |*   |  |*  *    |*    |   *     |
   #   **** *   ****   |*   |    ****  |*   |  |*   *   ******    *****
   #
-  #  ==========================================================================  
+  #  ==========================================================================
 
   # This is the default QuasarOS on-device system configuration flake.
   # It loads your remote configuration,
@@ -44,11 +44,18 @@
       quasaros,
       config,
       ...
-    }@inputs:
+    }:
     {
       # Build the system
       nixosConfigurations.netsanet = (quasaros.make config).system;
 
-      formatter.x86_64-linux = nixpkgs.legacyPackages.x86_64-linux.nixfmt-rfc-style;
+      formatter =
+        let
+          systems = [
+            "x86_64-linux"
+          ];
+          forAll = value: nixpkgs.lib.genAttrs systems (key: value);
+        in
+        forAll nixpkgs.legacyPackages.x86_64-linux.nixfmt-rfc-style;
     };
 }
