@@ -364,14 +364,15 @@
         "lanzaboote": "lanzaboote",
         "nixpkgs": "nixpkgs_4",
         "nixpkgs-upstream": "nixpkgs-upstream",
-        "zen-browser": "zen-browser"
+        "zen-browser": "zen-browser",
+        "zen-browser-flake": "zen-browser-flake"
       },
       "locked": {
-        "lastModified": 1734998866,
-        "narHash": "sha256-dLjJOxz0y8WZ/A7EPicMs5TVPoyBGG0rAJiU5pWmwcU=",
+        "lastModified": 1734999993,
+        "narHash": "sha256-yShxVBvrjl1DQmiAGyeIKMjuFDfmTnM/0EWYefDDRmM=",
         "owner": "quantum9innovation",
         "repo": "quasaros",
-        "rev": "4e105b5de21530496e4f8bc65329e92201812787",
+        "rev": "3f4b8426d06f96601d91a253651de293e4e1b6b7",
         "type": "github"
       },
       "original": {
@@ -446,24 +447,16 @@
       }
     },
     "zen-browser": {
-      "inputs": {
-        "nixpkgs": "nixpkgs_5",
-        "zen-browser-aarch64": "zen-browser-aarch64",
-        "zen-browser-generic": "zen-browser-generic",
-        "zen-browser-specific": "zen-browser-specific"
-      },
+      "flake": false,
       "locked": {
-        "lastModified": 1734840442,
-        "narHash": "sha256-3N2HEvJPq6SQswGAxVKhwgHDQBVr6CKsdb7XZxmlEn0=",
-        "owner": "youwen5",
-        "repo": "zen-browser-flake",
-        "rev": "36555afeb6be07e86622b858a0919e4a07038db8",
-        "type": "github"
+        "lastModified": 1734994430,
+        "narHash": "sha256-TbQoiyowYBkjOGLQ+zVPC5wrNUIKx4pdz8icIcwOGEI=",
+        "type": "tarball",
+        "url": "https://github.com/zen-browser/desktop/releases/download/twilight/zen.linux-x86_64.tar.bz2"
       },
       "original": {
-        "owner": "youwen5",
-        "repo": "zen-browser-flake",
-        "type": "github"
+        "type": "tarball",
+        "url": "https://github.com/zen-browser/desktop/releases/download/twilight/zen.linux-x86_64.tar.bz2"
       }
     },
     "zen-browser-aarch64": {
@@ -479,6 +472,30 @@
         "url": "https://github.com/zen-browser/desktop/releases/download/1.0.2-b.3/zen.linux-aarch64.tar.bz2"
       }
     },
+    "zen-browser-flake": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_5",
+        "zen-browser-aarch64": "zen-browser-aarch64",
+        "zen-browser-generic": "zen-browser-generic",
+        "zen-browser-specific": [
+          "quasaros",
+          "zen-browser"
+        ]
+      },
+      "locked": {
+        "lastModified": 1734840442,
+        "narHash": "sha256-3N2HEvJPq6SQswGAxVKhwgHDQBVr6CKsdb7XZxmlEn0=",
+        "owner": "youwen5",
+        "repo": "zen-browser-flake",
+        "rev": "36555afeb6be07e86622b858a0919e4a07038db8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "youwen5",
+        "repo": "zen-browser-flake",
+        "type": "github"
+      }
+    },
     "zen-browser-generic": {
       "flake": false,
       "locked": {
@@ -490,19 +507,6 @@
       "original": {
         "type": "tarball",
         "url": "https://github.com/zen-browser/desktop/releases/download/1.0.2-b.3/zen.linux-generic.tar.bz2"
-      }
-    },
-    "zen-browser-specific": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1734645803,
-        "narHash": "sha256-zAo93sHeB8cTW2JBAqxx0wo3CANcxCgjEcTQgbDeWT4=",
-        "type": "tarball",
-        "url": "https://github.com/zen-browser/desktop/releases/download/1.0.2-b.3/zen.linux-specific.tar.bz2"
-      },
-      "original": {
-        "type": "tarball",
-        "url": "https://github.com/zen-browser/desktop/releases/download/1.0.2-b.3/zen.linux-specific.tar.bz2"
       }
     }
   },
