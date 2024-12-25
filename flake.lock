@@ -250,11 +250,11 @@
     },
     "nixpkgs-upstream": {
       "locked": {
-        "lastModified": 1735053414,
-        "narHash": "sha256-m4CnYqYu5EK18Nl52gYkPUz+S/AIFIUTJM23bGoKoXQ=",
+        "lastModified": 1735140310,
+        "narHash": "sha256-NuhGCcev/etYS4qAsh905St1Co0tK8FjgGDovUeCVjo=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "e905913c43d0547a131ca9c7917fa9089b627e01",
+        "rev": "bb881a68c1174d38ee466a35f5e23d03a938b186",
         "type": "github"
       },
       "original": {
@@ -352,11 +352,11 @@
         "zen-browser-flake": "zen-browser-flake"
       },
       "locked": {
-        "lastModified": 1735107377,
-        "narHash": "sha256-z5ClRQ7Q/Fwn97/c7Xb3NW5+ooP3tfnprLPpwgy9mOQ=",
+        "lastModified": 1735169843,
+        "narHash": "sha256-Bcysb+F8WJU+4Yg+g3d7rilC3hh3y/jo++e9+Xz9Iw4=",
         "owner": "quantum9innovation",
         "repo": "quasaros",
-        "rev": "bd089a9bb66d61e94dd2e5e94c3a9cd7abc31519",
+        "rev": "f7d30119050f2952f5719c1d54c59291aaf116d4",
         "type": "github"
       },
       "original": {
@@ -433,8 +433,8 @@
     "zen-browser": {
       "flake": false,
       "locked": {
-        "lastModified": 1735094417,
-        "narHash": "sha256-aZKLJDIuk5CMKreLNnJtYmbXO6Y5JKsRMb7GpwaWW5Q=",
+        "lastModified": 1735162342,
+        "narHash": "sha256-X8wfIwAFX+X3IcMdZjmdA3XWmvY3gIUtLdNurTqm8jQ=",
         "type": "tarball",
         "url": "https://github.com/zen-browser/desktop/releases/download/twilight/zen.linux-x86_64.tar.bz2"
       },
