@@ -39,7 +39,6 @@
 
   outputs =
     {
-      self,
       nixpkgs,
       quasaros,
       config,
