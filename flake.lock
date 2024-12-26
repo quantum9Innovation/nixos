@@ -105,16 +105,15 @@
         ]
       },
       "locked": {
-        "lastModified": 1735247422,
-        "narHash": "sha256-vx6Bi8MrPjWc20eaPplphD8z3dG82NNhJDTRXYIPEAc=",
-        "owner": "quantum9innovation",
+        "lastModified": 1735250548,
+        "narHash": "sha256-v/Ohimbhp2qFMHUIzbwpiS+dbz+4ZzjzyoE6IoWkWx0=",
+        "owner": "youwen5",
         "repo": "gitbutler-flake",
-        "rev": "89d3807961d26bb202e4cdbb34e501c8f47a8850",
+        "rev": "448e9a784f2310f73b0b2f4f16dc35d31b3bf8d9",
         "type": "github"
       },
       "original": {
-        "owner": "quantum9innovation",
-        "ref": "patch-1",
+        "owner": "youwen5",
         "repo": "gitbutler-flake",
         "type": "github"
       }
@@ -375,11 +374,11 @@
         "zen-browser-flake": "zen-browser-flake"
       },
       "locked": {
-        "lastModified": 1735249978,
-        "narHash": "sha256-i/iAB0hb6WzSf1UNU/ES6VjQs49kf2kOChI9v09aT6o=",
+        "lastModified": 1735252865,
+        "narHash": "sha256-Rp45lI65KuiRnU9i0SV+ndl0UKIHRaR5C8W2pc+RcsE=",
         "owner": "quantum9innovation",
         "repo": "quasaros",
-        "rev": "930839c50af9b56f43d68206a29abb803dde0332",
+        "rev": "7c75a9b2a48f2717648b3404352810d4c618b37b",
         "type": "github"
       },
       "original": {
