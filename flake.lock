@@ -374,11 +374,11 @@
         "zen-browser-flake": "zen-browser-flake"
       },
       "locked": {
-        "lastModified": 1735252865,
-        "narHash": "sha256-Rp45lI65KuiRnU9i0SV+ndl0UKIHRaR5C8W2pc+RcsE=",
+        "lastModified": 1735259397,
+        "narHash": "sha256-EjJOUUOa+2k+a+xYtquAlj9pU/7/2/air8ST4K7QT68=",
         "owner": "quantum9innovation",
         "repo": "quasaros",
-        "rev": "7c75a9b2a48f2717648b3404352810d4c618b37b",
+        "rev": "2994dc0ef98528a9775da302b02e6e1e7591afa2",
         "type": "github"
       },
       "original": {
