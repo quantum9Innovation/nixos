@@ -1,5 +1,22 @@
 {
   "nodes": {
+    "aq": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1735775001,
+        "narHash": "sha256-qg3yw/525LwxAO6QlLIZ941yGfmLIGUL5VULiVcYnnA=",
+        "owner": "quantum9innovation",
+        "repo": "aquamarine",
+        "rev": "6004e4f76a13b14282f06f6d06bd6da63da6b225",
+        "type": "github"
+      },
+      "original": {
+        "owner": "quantum9innovation",
+        "ref": "patch-125",
+        "repo": "aquamarine",
+        "type": "github"
+      }
+    },
     "config": {
       "inputs": {
         "nixpkgs": "nixpkgs"
@@ -301,6 +318,7 @@
     },
     "quasaros": {
       "inputs": {
+        "aq": "aq",
         "gitbutler": "gitbutler",
         "home-manager": "home-manager",
         "lanzaboote": "lanzaboote",
@@ -309,11 +327,11 @@
         "zen-browser": "zen-browser"
       },
       "locked": {
-        "lastModified": 1735689437,
-        "narHash": "sha256-ctjVSY++GBd6ivP1XP/DW1+EXfFf+s9GAHgIq+hwHqU=",
+        "lastModified": 1735776472,
+        "narHash": "sha256-zRTaVDAE2kDSK0/YKBswBy2tntzEAkjArF+ZiqmkuyA=",
         "owner": "quantum9innovation",
         "repo": "quasaros",
-        "rev": "b59a96c815eb2d8fafc3efbaaad86b3048a80c1a",
+        "rev": "a664d0c212a40c3a7e0fc068a591e8c72460b28a",
         "type": "github"
       },
       "original": {
