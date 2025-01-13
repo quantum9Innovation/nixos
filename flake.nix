@@ -28,7 +28,9 @@
     # usually the last commit on the `main` branch.
     # This is the recommended way to install user packages
     # which are not critical for system functionality on QuasarOS.
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+
+    # Share the nixpkgs instance in quasaros
+    nixpkgs.follows = "quasaros/nixpkgs";
 
     # QuasarOS
     quasaros.url = "github:quantum9innovation/quasaros/main";
