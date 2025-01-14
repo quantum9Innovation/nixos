@@ -83,27 +83,6 @@
         "type": "github"
       }
     },
-    "betterbird": {
-      "inputs": {
-        "nixpkgs": [
-          "quasaros",
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1735952316,
-        "narHash": "sha256-F/DrcKNMbQvJte7JvjYCmR2iPytG/jYljMLuzOYles8=",
-        "ref": "refs/heads/main",
-        "rev": "89ff2f3f67caf2481763d560c3c2f2637881b3c3",
-        "revCount": 1,
-        "type": "git",
-        "url": "https://code.youwen.dev/youwen5/betterbird-flake"
-      },
-      "original": {
-        "type": "git",
-        "url": "https://code.youwen.dev/youwen5/betterbird-flake"
-      }
-    },
     "config": {
       "inputs": {
         "nixpkgs": "nixpkgs"
@@ -557,7 +536,6 @@
     "quasaros": {
       "inputs": {
         "aq": "aq",
-        "betterbird": "betterbird",
         "gitbutler": "gitbutler",
         "home-manager": "home-manager",
         "lanzaboote": "lanzaboote",
@@ -567,11 +545,11 @@
         "zen-browser": "zen-browser"
       },
       "locked": {
-        "lastModified": 1736732208,
-        "narHash": "sha256-64nAY5Df9GdAvQThVbjdZJm0NT1wq8dYdP2bN+9bSTU=",
+        "lastModified": 1736826062,
+        "narHash": "sha256-vok0s5NTIpk2KJZ2dqaC0JeMtH6Je2eNge/NG0IO/EQ=",
         "owner": "quantum9innovation",
         "repo": "quasaros",
-        "rev": "e258ec28760c94e8e2623566d365faad781f7bf8",
+        "rev": "fe1055802ca7a45c34d1f0a43b1372ca6562bc76",
         "type": "github"
       },
       "original": {
