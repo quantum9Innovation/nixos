@@ -88,11 +88,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1739143144,
-        "narHash": "sha256-2VwQQJj39oMt/q1Yz6IIDhme9JAsH3cR3vngS+RaReU=",
+        "lastModified": 1739143815,
+        "narHash": "sha256-e/3x9meNuuP3Dpds1pWSfqAD4XfLPXUF72Y2QafDLho=",
         "owner": "quantum9innovation",
         "repo": "netsanet",
-        "rev": "1b0dab6711573195e16b66746a56fb9dc0a77c20",
+        "rev": "7d528649afcbd0ab1feed306694d89199ef71cc6",
         "type": "github"
       },
       "original": {
