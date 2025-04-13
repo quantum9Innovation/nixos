@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD013 -->
+
 # nixos
 
 ![A dependency graph of my NixOS system](./frame.png)

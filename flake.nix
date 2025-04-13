@@ -32,6 +32,9 @@
     # Share the nixpkgs instance in quasaros
     nixpkgs.follows = "quasaros/nixpkgs";
 
+    # Enable pre-commit hooks on this repository
+    pre-commit-hooks.url = "github:cachix/git-hooks.nix";
+
     # QuasarOS
     quasaros.url = "github:quantum9innovation/quasaros/main";
 
@@ -41,22 +44,74 @@
 
   outputs =
     {
+      self,
       nixpkgs,
       quasaros,
       config,
       ...
-    }:
+    }@inputs:
+    let
+      supportedSystems = [
+        "x86_64-linux"
+        "aarch64-linux"
+        "x86_64-darwin"
+        "aarch64-darwin"
+      ];
+      forAllSystems = nixpkgs.lib.genAttrs supportedSystems;
+    in
     {
+      checks = forAllSystems (system: {
+        pre-commit-check = inputs.pre-commit-hooks.lib.${system}.run {
+          src = ./.;
+          hooks = {
+            check-merge-conflicts.enable = true;
+            commitizen.enable = true;
+            convco.enable = true;
+            forbid-new-submodules.enable = true;
+            gitlint.enable = true;
+            markdownlint.enable = true;
+            mdformat.enable = true;
+            mdsh.enable = true;
+            deadnix.enable = true;
+            flake-checker.enable = true;
+            nil.enable = true;
+            statix.enable = true;
+            nixfmt-rfc-style.enable = true;
+            ripsecrets.enable = true;
+            trufflehog.enable = true;
+            shellcheck.enable = true;
+            shfmt.enable = true;
+            typos.enable = true;
+            check-yaml.enable = true;
+            yamlfmt.enable = true;
+            yamllint.enable = true;
+            yamllint.settings.preset = "relaxed";
+            actionlint.enable = true;
+            check-added-large-files.enable = true;
+            check-case-conflicts.enable = true;
+            check-executables-have-shebangs.enable = true;
+            check-shebang-scripts-are-executable.enable = true;
+            check-symlinks.enable = true;
+            detect-private-keys.enable = true;
+            end-of-file-fixer.enable = true;
+            mixed-line-endings.enable = true;
+            tagref.enable = true;
+            trim-trailing-whitespace.enable = true;
+            check-toml.enable = true;
+          };
+        };
+      });
+
+      devShells = forAllSystems (system: {
+        default = nixpkgs.legacyPackages.${system}.mkShell {
+          inherit (self.checks.${system}.pre-commit-check) shellHook;
+          buildInputs = self.checks.${system}.pre-commit-check.enabledPackages;
+        };
+      });
+
       # Build the system
       nixosConfigurations.netsanet = (quasaros.make config).system;
 
-      formatter =
-        let
-          systems = [
-            "x86_64-linux"
-          ];
-          forAll = value: nixpkgs.lib.genAttrs systems (key: value);
-        in
-        forAll nixpkgs.legacyPackages.x86_64-linux.nixfmt-rfc-style;
+      formatter = forAllSystems (_system: nixpkgs.legacyPackages.x86_64-linux.nixfmt-rfc-style);
     };
 }
