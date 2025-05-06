@@ -764,11 +764,11 @@
         "zen-browser": "zen-browser"
       },
       "locked": {
-        "lastModified": 1746420645,
-        "narHash": "sha256-auRRglfbtaWdDnFirc7SCnb1oVfNUSctwi1uNrFsBqg=",
+        "lastModified": 1746430822,
+        "narHash": "sha256-5D65a2vR1/rLCknLe2uLhOBkzQ+i0l9SVYlmyMMnEEI=",
         "owner": "quantum9innovation",
         "repo": "quasaros",
-        "rev": "21b794cb2d506b913429b0ff74d694dc40839d2f",
+        "rev": "4ab7f834c46e69260fa1645de849465cfe6e255f",
         "type": "github"
       },
       "original": {
