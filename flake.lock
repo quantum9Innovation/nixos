@@ -1063,11 +1063,11 @@
         "zen-browser": "zen-browser"
       },
       "locked": {
-        "lastModified": 1752451255,
-        "narHash": "sha256-QxzcY8HOV/lL8OiwMf6jNUoyU/IUrA9GpyY3FuO1EeE=",
+        "lastModified": 1752452103,
+        "narHash": "sha256-HM1u5aNbdG48Z8K0MO+EsvBRk2oGrb6G4+mGMe9068A=",
         "owner": "quantum9innovation",
         "repo": "quasaros",
-        "rev": "20971744abf4db7c05e4d976566901679d0ed21f",
+        "rev": "83a577050fb2442ffd42626c11cea265ec725c61",
         "type": "github"
       },
       "original": {
