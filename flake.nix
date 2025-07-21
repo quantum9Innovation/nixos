@@ -18,7 +18,7 @@
   # to previous system configurations.
   # However, you should keep this flake's lockfile,
   # so you can declaratively restore packages to previous versions if necessary.
-  description = "On-device system configuration flake";
+  description = "On-device system configuration flake, checked with Hercules CI";
 
   inputs = {
     # QuasarOS uses the nixpkgs unstable channel,
