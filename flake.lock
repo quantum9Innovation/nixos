@@ -110,11 +110,11 @@
         "pre-commit-hooks": "pre-commit-hooks"
       },
       "locked": {
-        "lastModified": 1753054016,
-        "narHash": "sha256-oearKryuv4USZkgsL1NHzj8ltuQJbzH9UZwjZGTdEbQ=",
+        "lastModified": 1753057277,
+        "narHash": "sha256-isEZ5BRcKOSv3Gil1yR0s4rJ7rgzu7gy1DqXPQnmmrE=",
         "owner": "quantum9innovation",
         "repo": "netsanet",
-        "rev": "d624b260add8ffcd821d15a9c3584ec909318b55",
+        "rev": "97e48a385b0375f5941bc9da62da589dddcc1e52",
         "type": "github"
       },
       "original": {
@@ -1063,11 +1063,11 @@
         "zen-browser": "zen-browser"
       },
       "locked": {
-        "lastModified": 1753053765,
-        "narHash": "sha256-+i6y4bHVwaJpsBFrRFqV5CKB7vKzKA78c0/jcF0Bf9c=",
+        "lastModified": 1753057249,
+        "narHash": "sha256-pFtKTW0tEI6peckn67h6eLihrCHf21Gya9doCr/+LkQ=",
         "owner": "quantum9innovation",
         "repo": "quasaros",
-        "rev": "a1c4e0eaf1269ade1df31761a2751cae8c3c7704",
+        "rev": "8f7e182274b219a0de04d3dddd33175bf3c39d46",
         "type": "github"
       },
       "original": {
