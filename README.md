@@ -8,4 +8,4 @@
 
 A random assortment of some of my [NixOS](https://nixos.org/) ([QuasarOS](https://github.com/quantum9innovation/QuasarOS)-based) configurations for testing/debugging/experimentation purposes;
 this also happens to be the system that I daily drive.
-You can find my system configuration, tailored for QuasarOS, [here](https://github.com/quantum9innovation/netsanet).
+You can find my system configuration, tailored for QuasarOS, at this [repository](https://github.com/quantum9innovation/netsanet).
