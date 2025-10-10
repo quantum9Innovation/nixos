@@ -110,11 +110,11 @@
         "pre-commit-hooks": "pre-commit-hooks"
       },
       "locked": {
-        "lastModified": 1759884649,
-        "narHash": "sha256-l71SCThTap7fe2fG1wOe1tBi4L+kkXmRcmc9riVtKtw=",
+        "lastModified": 1759971118,
+        "narHash": "sha256-araaHeHqP/RN2dapkYAakS/gChdgHgtZGgmJAN/RHEc=",
         "owner": "quantum9innovation",
         "repo": "netsanet",
-        "rev": "764d897eefc5bb65fa4de4bda79a2e5be4c0265b",
+        "rev": "6c9d694ff3d084eaa44942fb4f597ac1f60ffab9",
         "type": "github"
       },
       "original": {
@@ -800,11 +800,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1759733170,
-        "narHash": "sha256-TXnlsVb5Z8HXZ6mZoeOAIwxmvGHp1g4Dw89eLvIwKVI=",
+        "lastModified": 1759831965,
+        "narHash": "sha256-vgPm2xjOmKdZ0xKA6yLXPJpjOtQPHfaZDRtH+47XEBo=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "8913c168d1c56dc49a7718685968f38752171c3b",
+        "rev": "c9b6fb798541223bbb396d287d16f43520250518",
         "type": "github"
       },
       "original": {
@@ -832,11 +832,11 @@
     },
     "nixpkgs-upstream": {
       "locked": {
-        "lastModified": 1759815582,
-        "narHash": "sha256-uQvMq2yTJPsH+tShNlpEbQSIGt3D2P9hh+Y8oyMiUlU=",
+        "lastModified": 1759860509,
+        "narHash": "sha256-c7eJvqAlWLhwNc9raHkQ7mvoFbHLUO/cLMrww1ds4Zg=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "f15bc496e57cdc734e9c4bc2040369e871e46ae6",
+        "rev": "b574dcadf3fb578dee8d104b565bd745a5a9edc0",
         "type": "github"
       },
       "original": {
@@ -880,11 +880,11 @@
     },
     "nixpkgs_4": {
       "locked": {
-        "lastModified": 1759733170,
-        "narHash": "sha256-TXnlsVb5Z8HXZ6mZoeOAIwxmvGHp1g4Dw89eLvIwKVI=",
+        "lastModified": 1759831965,
+        "narHash": "sha256-vgPm2xjOmKdZ0xKA6yLXPJpjOtQPHfaZDRtH+47XEBo=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "8913c168d1c56dc49a7718685968f38752171c3b",
+        "rev": "c9b6fb798541223bbb396d287d16f43520250518",
         "type": "github"
       },
       "original": {
@@ -1064,11 +1064,11 @@
         "zen-browser": "zen-browser"
       },
       "locked": {
-        "lastModified": 1759885644,
-        "narHash": "sha256-9wJnvbsE5tMTrnVUcC/2E0sgxYFMhGeO++5kbrWiLY4=",
+        "lastModified": 1759972112,
+        "narHash": "sha256-tBWzph7jmyXbwfe2H2KydyVpCdrE/FHWJ43hVXQGjCY=",
         "owner": "quantum9innovation",
         "repo": "quasaros",
-        "rev": "ebdc945b19526280090bc056a96b88086d94d908",
+        "rev": "1b1201803a9542448c109a99a05d879d66eff53a",
         "type": "github"
       },
       "original": {
