@@ -111,11 +111,11 @@
         "pre-commit-hooks": "pre-commit-hooks"
       },
       "locked": {
-        "lastModified": 1760575970,
-        "narHash": "sha256-LrqUGuzp7uSI571WbFJ/El2lIfX/V/ygcjU1jBLT8tw=",
+        "lastModified": 1760662345,
+        "narHash": "sha256-ekHLQ4cPNBb4vpVoe42fjbjOjwtL64sov9kXs4TNsfg=",
         "owner": "quantum9innovation",
         "repo": "netsanet",
-        "rev": "d6dc5e3af1086a5664b994247cbe32e2f980d851",
+        "rev": "5ebda3075a71bd0299ea37e9b191133ccf8ef1de",
         "type": "github"
       },
       "original": {
@@ -453,11 +453,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1760500983,
-        "narHash": "sha256-zfY4F4CpeUjTGgecIJZ+M7vFpwLc0Gm9epM/iMQd4w8=",
+        "lastModified": 1760662441,
+        "narHash": "sha256-mlDqR1Ntgs9uYYEAUR1IhamKBO0lxoNS4zGLzEZaY0A=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "c53e65ec92f38d30e3c14f8d628ab55d462947aa",
+        "rev": "722792af097dff5790f1a66d271a47759f477755",
         "type": "github"
       },
       "original": {
@@ -833,11 +833,11 @@
     },
     "nixpkgs-upstream": {
       "locked": {
-        "lastModified": 1760522646,
-        "narHash": "sha256-QXds0iuc8JqK8Fdpmn/Gozpz7FKsio2rT6D2VROmqCw=",
+        "lastModified": 1760623159,
+        "narHash": "sha256-Ps5Z0wb9NuDOZyevjlCNgxRValuLBDLZTp6LO5cEMCo=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "3ce5398bca4f937a37cbb07c9d18cb2c37be43a8",
+        "rev": "f7a1994b7d8b0faa4a604790212d2e87fa34b9f9",
         "type": "github"
       },
       "original": {
@@ -945,11 +945,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1760392170,
-        "narHash": "sha256-WftxJgr2MeDDFK47fQKywzC72L2jRc/PWcyGdjaDzkw=",
+        "lastModified": 1760661173,
+        "narHash": "sha256-zhY2B452Ima5iR9+x/Cc2uqi1Nmeejxz9KoM0MQ2734=",
         "owner": "cachix",
         "repo": "git-hooks.nix",
-        "rev": "46d55f0aeb1d567a78223e69729734f3dca25a85",
+        "rev": "ea66c7c164b9e149d5c32b33cc36090c0e3019f5",
         "type": "github"
       },
       "original": {
@@ -994,11 +994,11 @@
         "nixpkgs": "nixpkgs_3"
       },
       "locked": {
-        "lastModified": 1760661173,
-        "narHash": "sha256-zhY2B452Ima5iR9+x/Cc2uqi1Nmeejxz9KoM0MQ2734=",
+        "lastModified": 1760663237,
+        "narHash": "sha256-BflA6U4AM1bzuRMR8QqzPXqh8sWVCNDzOdsxXEguJIc=",
         "owner": "cachix",
         "repo": "git-hooks.nix",
-        "rev": "ea66c7c164b9e149d5c32b33cc36090c0e3019f5",
+        "rev": "ca5b894d3e3e151ffc1db040b6ce4dcc75d31c37",
         "type": "github"
       },
       "original": {
@@ -1038,11 +1038,11 @@
         "nixpkgs": "nixpkgs_5"
       },
       "locked": {
-        "lastModified": 1760392170,
-        "narHash": "sha256-WftxJgr2MeDDFK47fQKywzC72L2jRc/PWcyGdjaDzkw=",
+        "lastModified": 1760663237,
+        "narHash": "sha256-BflA6U4AM1bzuRMR8QqzPXqh8sWVCNDzOdsxXEguJIc=",
         "owner": "cachix",
         "repo": "git-hooks.nix",
-        "rev": "46d55f0aeb1d567a78223e69729734f3dca25a85",
+        "rev": "ca5b894d3e3e151ffc1db040b6ce4dcc75d31c37",
         "type": "github"
       },
       "original": {
@@ -1065,11 +1065,11 @@
         "zen-browser": "zen-browser"
       },
       "locked": {
-        "lastModified": 1760576998,
-        "narHash": "sha256-llhwJiMS4h8nro2y5wUOvYvjD+jpP7+rh6emiNz4zKY=",
+        "lastModified": 1760663360,
+        "narHash": "sha256-auMMHplpw6oRTkLI0JIDiZ5GjJRpF8rjj+h2hd3sVfA=",
         "owner": "quantum9innovation",
         "repo": "quasaros",
-        "rev": "9bd38aa3f48ab43f9c83ad440d8204f608e8efaa",
+        "rev": "7a3be57b8bf53d4eb4585d06f8fd0390a920275b",
         "type": "github"
       },
       "original": {
